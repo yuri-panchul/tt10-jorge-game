@@ -232,7 +232,7 @@ module hackathon_top
             if (  x >= x0 & x < x0 + wx
                 & y >= y0 & y < y0 + wy)
             begin
-                blue = max_blue;
+                green = max_green;
             end
 
             if (  x >= x1 & x < x1 + wx
