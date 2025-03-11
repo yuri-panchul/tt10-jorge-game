@@ -77,6 +77,7 @@ module tt_um_jorge_game
     //------------------------------------------------------------------------
 
     // List all unused inputs to prevent warnings
+
     wire _unused = & { ena, ui_in, uio_in [7:6], uio_in [4:0], 1'b0 };
 
 endmodule
